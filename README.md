@@ -24,7 +24,7 @@ The AUC scores suggest that random forest is the best classifier, while decision
 The dataset contains the following predictors:\
 age,sex,chest pain type,resting bps,cholesterol,fasting blood sugar,resting ecg,max heart rate,exercise angina,oldpeak,ST slope
 
-We can compute the AUC score dropping each predictor one by one. Whichever one drops the AUC score the most has the greatest impact on the AUC, \ 
+We can compute the AUC score dropping each predictor one by one. Whichever one drops the AUC score the most has the greatest impact on the AUC, 
 and this we can choose that as the best predictor. 
 ```
 Logistic Regression
@@ -93,5 +93,7 @@ Dropping exercise angina: AUC = 0.8102322206095791
 Dropping oldpeak: AUC = 0.8065584179970972
 Dropping ST slope: AUC = 0.7216981132075471
 ```
-We can see that in logistic regression, SVM, decision tree, and random forest dropping ST slope has the greatest impact on the AUC.\
-However, in decision tree, the original AUC is actually the lowest. 
+We can see that in logistic regression, SVM, decision tree, and random forest dropping ST slope has the greatest impact on the AUC.
+However, in decision tree, the original AUC is actually the lowest. This suggests that in the context of predicting heart disease,
+ST slope as a predictor has strong discrimanatory ability. However, in most models tested (4/5), the AUC of the original model is the greatest,
+demonstrating the importance of considering all factors/features.
