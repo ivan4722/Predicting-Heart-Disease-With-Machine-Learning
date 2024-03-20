@@ -8,7 +8,7 @@ We can build models using the following:
 - random forest
 - adaBoost
 
-We can then calculate the accuracy of our model using the AUC (area under the curve) of the ROC curve. The ROC curve compares the true positive to the false negative rate. That way, we can ensure sensitivity and specificity of our model.\
+We can then calculate the accuracy of our model using the AUC (area under the curve) of the ROC curve. The ROC curve compares the true positive to the false negative rate. That way, we can ensure sensitivity and specificity of our model.
 
 Below are the AUC of each model:
 ```
