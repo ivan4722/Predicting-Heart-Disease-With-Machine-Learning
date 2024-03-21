@@ -1,6 +1,8 @@
 # Predicting Heart Disease Using Machine Learning
 dataset: https://www.kaggle.com/datasets/winson13/heart-disease-dataset?resource=download
 
+![img](https://cdn.glitch.global/b0b21e26-c8c1-4508-b1e1-5fba2701f32b/Capture.PNG?v=1711000828051)
+
 We can build models using the following:
 - logistic regression
 - SVM
